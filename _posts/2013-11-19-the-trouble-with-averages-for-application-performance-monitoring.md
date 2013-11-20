@@ -2,8 +2,8 @@
 layout: post
 title: "The Trouble With Averages For Application Performance Monitoring"
 description: ""
-category: "Rails"
-tags: [rails, performance]
+category: "Performance"
+tags: [performance, rails]
 ---
 {% include JB/setup %}
 
