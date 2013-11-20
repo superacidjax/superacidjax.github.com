@@ -10,7 +10,7 @@ tags: [rails, performance]
 Most web application performance tuning starts with an almost obsession with
 average response times. The problem with average response times is that we
 tend to make the assumption that the average would be evenly distributed.
-Yehuda Katz and Tom Dale from [Tilde](http://tilde/io) make an excellent point
+Yehuda Katz and Tom Dale from [Tilde](http://tilde.io) make an excellent point
 about how this is wrong. If web application performance were distributed like
 human heights were distributed, then it wouldn't be unusual to see a 12 foot
 person occassionally on the street or a 2 foot person.
@@ -44,3 +44,7 @@ Chasing average response times can be helpful as a vanity metric, however it
 doesn't actually measure how well your application is performing for each user.
 If every 20th request is taking 5 seconds, those 200ms requests aren't very
 appealing anymore, even though your average request time might only be 300ms.
+
+You can hear more about this with [Thoughtbot's](http://thoughtbot.com) Ben
+Orenstein and [Tilde's](https://tilde.io) Yehuda Katz and Tom Dale in
+[Episode 53 of the Giant Robots Smashing into Other Giant Robots Podcast](http://podcasts.thoughtbot.com/giantrobots/53).
